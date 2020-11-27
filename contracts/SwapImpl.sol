@@ -8,8 +8,8 @@ contract SwapImpl is Initializable{
     //Using initialize instead of constructor.
     function initialize (address _userA, uint256 _tokenAcount, uint256 _tokenBcount) public {  
         require(_tokenAcount > 0 && _tokenBcount > 0);
-        tokenA = TokenFOPF(0x2725d6D4108aE8d70489E9aFC23443f8aB42895f);
-        tokenB = TokenFIVT(0x6B40527F7A211562a8b85736E1Cf4de96d92A0Cc);
+        tokenA = TokenFOPF(0xd39eeE2D3AF27438e754736F6FeEf04412aAb9EF);
+        tokenB = TokenFIVT(0xF6952a114412B49115Aed774C1214246E7D62fb6);
         tokenAcount = _tokenAcount;
         tokenBcount = _tokenBcount;
         userA = _userA;
